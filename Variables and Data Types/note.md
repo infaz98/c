@@ -55,4 +55,37 @@ printf ("Value 1: %i, Value 2: %i, Value 3: %i  \n",val1,val2,val3);
 ~~~   
 
 ### Assigning values to variables: 
+~~~
+//variable declaration
+int value1;
 
+//variable initialization
+value1 = 10;
+~~~   
+
+Assigning user input to variables 
+~~~
+int number;
+printf("Type in a number : ");
+scanf("%i", &number);
+~~~   
+
+scanf function takes two arguments which are:
+    <ol>
+    <li>type of the data which is expected</li>
+    <li>memory location associated with the variable</li>
+    </ol>
+
+### Format Modifiers   
+<br>
+
+| Modifier | Description                                                                    |
+|----------|--------------------------------------------------------------------------------|
+| %d , %i  | Print as decimal integer.                                                      |
+| %6d      | Print as decimal integer, at least six characters wide.                        |
+| %f       | Print as floating point.                                                       |
+| %6f      | Print as floating point, at least six characters wide.                         |
+| %.2f     | Print as floating point, 2 characters after decimal point.                     |
+| %6.2f    | Print as floating point, at least 6 wide and 2 characters after decimal point. |
+| %-4s     | Print as four character string with left justified.                            |
+| %4s      | Print as four character string with right justified.                           |
