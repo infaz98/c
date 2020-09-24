@@ -1,4 +1,4 @@
-## Variables and Data types in C   
+# Variables and Data types in C   
 <br>
 <ul>
 <li>c is a <b>case sensitive</b> langauage  </li>  

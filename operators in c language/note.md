@@ -1,4 +1,25 @@
-## Operators in C Language  
+# Operators in C Language  
+
+Operators can be categorized into three category
+<ul>
+<li><b>Unary operators</b></li>
+<li><b>Binary operators</b></li>
+<ul>
+<li>Arithmetic operators</li>
+<li>Relational operators</li>
+<li>Logical operators</li>
+<li>Bitwise operators</li>
+<li>Assignment operators</li>
+</ul>
+<li><b>Ternary operators</b></li>
+<ul>
+<li>Ternary or conditional operators</li>
+</ul>
+</ul>
+<br>  
+
+### Operators precedence
+
 
 | Category          | Operator                               | Associativity  |
 |-------------------|----------------------------------------|----------------|
