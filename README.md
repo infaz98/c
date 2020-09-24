@@ -1,4 +1,4 @@
-# c
+# c programming
 Rajarata university of Sri Lanka - COM1407 computer programming  
   
   
