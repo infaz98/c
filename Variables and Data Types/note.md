@@ -88,4 +88,4 @@ scanf function takes two arguments which are:
 | %.2f     | Print as floating point, 2 characters after decimal point.                     |
 | %6.2f    | Print as floating point, at least 6 wide and 2 characters after decimal point. |
 | %-4s     | Print as four character string with left justified.                            |
-| %4s      | Print as four character string with right justified.                           |
+| %4s      | Print as four character string with right justified.                           |git
