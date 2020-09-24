@@ -39,4 +39,20 @@
 | unsigned char          | 1              | 0 to 255                        | %c               |
 | float                  | 4              |                                 | %f               |
 | double                 | 8              |                                 | %lf              |
-| long double            | 16             |                                 | %Lf              |
+| long double            | 16             |                                 | %Lf              |  
+
+<br>  
+
+### Formatting Character:  
+  
+The character that immediately follows the percent sign specifies what type of value is to be displayed at that point. In the preceding program  
+~~~
+printf ("The sum of 50 and 25 is %i \n",sum);
+~~~   
+Multiple variable formating   
+~~~
+printf ("Value 1: %i, Value 2: %i, Value 3: %i  \n",val1,val2,val3);
+~~~   
+
+### Assigning values to variables: 
+
