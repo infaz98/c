@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 //check whether a given input is an vowel
-void main(){
+int main(){
 
     char userInput;
 
@@ -29,4 +29,6 @@ void main(){
         printf("Not an vowel\n");
         break;
     }
+
+    return 0;
 }

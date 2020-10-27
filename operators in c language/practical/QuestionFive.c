@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 //thrid angle if two angles are given
-void main(){
+int main(){
 
     float first_angle;
     float second_angle;
@@ -16,4 +16,5 @@ void main(){
     third_angle = 180 - (first_angle + second_angle);
     printf("Third angle is %.2f\n", third_angle);
         
+    return 0;
 }

@@ -12,10 +12,11 @@ void exampleEight();
 void exampleNine();
 void exampleTen();
 
-void main(){
+int main(){
 
     exampleSix();
     
+    return 0;
 }
 
 void exampleOne(){

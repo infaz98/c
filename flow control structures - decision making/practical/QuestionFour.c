@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 //simple calculator
-void main(){
+int main(){
 
     char operator;
     int numberOne, numberTwo;
@@ -36,7 +36,7 @@ void main(){
         break;
  
     }
-
+    return 0;
 }
 
 

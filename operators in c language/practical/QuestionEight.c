@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 //sum of odd values among given five values
-void main(){
+int main(){
 
     int user_input;
     int sum = 0;
@@ -18,4 +18,5 @@ void main(){
 
     printf("Sum of the odd numbers among the input values is: %d\n", sum);
 
+    return 0;
 }   

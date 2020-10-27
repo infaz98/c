@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 //highest number among given three numbers
-void main(){
+int main(){
 
     int first_number;
     int second_number;
@@ -27,5 +27,6 @@ void main(){
     
     printf("Highets number is %d\n", highest_number);
     
+    return 0;
 
 }   

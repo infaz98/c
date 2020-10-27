@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 //sum of odd values among given five values
-void main(){
+int main(){
 
     int user_input;
     int number_of_positives = 0;
@@ -23,4 +23,5 @@ void main(){
     printf("Number of positive numbers: %d\n", number_of_positives);
     printf("Number of negative numbers: %d\n", number_of_negatives);
 
+    return 0;
 }   

@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 //perimeter of a rectangle
-void main(){
+int main(){
 
     int height;
     int width;
@@ -16,4 +16,6 @@ void main(){
     perimeter = height * 2 + width * 2;
 
     printf("perimeter of the rectangle is %d\n", perimeter);
+
+    return 0;
 }

@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 //check whether given inputs are correct or not
-void main(){
+int main(){
 
     int p;
     int q;
@@ -26,4 +26,6 @@ void main(){
     }else{
         printf("Wrong values\n");
     }
+
+    return 0;
 }   

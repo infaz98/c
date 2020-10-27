@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 //Bank transaction demo
-void main(){
+int main(){
 
     char transactionCode;
     int amount;
@@ -34,4 +34,6 @@ void main(){
         printf("Invalid selection\n");
         break;
     }
+
+    return 0;
 }

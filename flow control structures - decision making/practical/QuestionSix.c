@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 //output the month in text according to the input number 
-void main(){
+int main(){
 
     int userInput;
 
@@ -50,4 +50,6 @@ void main(){
         printf("Invalid Selection\n");
         break;
     }
+
+    return 0;
 }

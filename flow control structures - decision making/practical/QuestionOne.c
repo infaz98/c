@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 //determine child or a senior citizen
-void main(){
+int main(){
 
     int age; 
 
@@ -13,5 +13,5 @@ void main(){
     }else{
         printf("You are a Senior citizen\n");
     }
-
+    return 0;
 }

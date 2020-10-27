@@ -1,17 +1,19 @@
 #include <stdio.h>
 
 //kmh to mph converter
-void main(){
+int main(){
 
-//one kilometer  = 0.6213 miles
+    //one kilometer  = 0.6213 miles
 
-float kmh;
-float mph;
+    float kmh;
+    float mph;
 
-printf("Enter kmh value: ");
-scanf("%f", &kmh);
+    printf("Enter kmh value: ");
+    scanf("%f", &kmh);
 
-mph = kmh * 0.6213;
-printf("%.2f kmh is equal to %.2f mph\n", kmh,mph);
+    mph = kmh * 0.6213;
+    printf("%.2f kmh is equal to %.2f mph\n", kmh,mph);
+
+    return 0;
 
 }

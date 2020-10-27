@@ -2,7 +2,7 @@
 #include <string.h>
 
 //Check whether the driver is eligible for the insurens
-void main(){
+int main(){
     
     int age;
     char gender[10]; 
@@ -33,5 +33,5 @@ void main(){
     {
         printf("Driver is not eligible for the insurens\n");
     }
-
+    return 0;
 }

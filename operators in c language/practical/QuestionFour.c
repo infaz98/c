@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 //minutes into hours and minutes
-void main(){
+int main(){
 
     int minutes;
     int hours;
@@ -14,4 +14,6 @@ void main(){
     reamining_minutes = minutes%60;
 
     printf("%d minutes is equal to %d hours and %d minutes\n", minutes,hours,reamining_minutes);
+
+    return 0;
 }

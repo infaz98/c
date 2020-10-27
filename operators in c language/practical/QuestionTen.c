@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 //check whether given two number is possible to divide
-void main(){
+int main(){
 
     int first_number;
     int second_number;
@@ -17,4 +17,6 @@ void main(){
     }else{
         printf("Division is : %d\n", first_number/second_number);
     }
+
+    return 0;
 }   

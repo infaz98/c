@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 //determine the average grade of three students
-void main(){
+int main(){
 
     int M1, M2, M3;
  
@@ -25,4 +25,6 @@ void main(){
     }else{
         printf("Grade F\n");
     }
+
+    return 0;
 }

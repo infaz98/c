@@ -3,7 +3,7 @@
 
 
 //volume of a sphere
-void main(){
+int main(){
 
     float radius;
     float volume;
@@ -15,4 +15,5 @@ void main(){
 
     printf("Volume of the sphere is : %.2f\n", (volume));
 
+    return 0;
 }
