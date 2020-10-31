@@ -19,4 +19,4 @@ int main(){
     printf("Sum of the odd numbers among the input values is: %d\n", sum);
 
     return 0;
-}   
+} 
