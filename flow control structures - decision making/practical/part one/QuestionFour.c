@@ -33,7 +33,7 @@ int main(){
         printf("Remainder is %d\n", numberOne % numberTwo);
         break;      
     default:
-        break;
+        printf("Invalid Selection");
  
     }
     return 0;
