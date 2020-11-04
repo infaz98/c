@@ -1,7 +1,7 @@
-# c 
-Rajarata university of Sri Lanka - COM1407 computer programming  
-  
-  
+<img src="https://user-images.githubusercontent.com/61581197/98168939-5f608c00-1f11-11eb-8fc1-9d3233540e4b.png" width="120" hieght="190">
+
+# Rajarata University of Sri Lanka - COM1407 computer programming   
+<br>
 Each directory contains the followings which are:  
 <ul>
 <li><b>note.md</b>: Contains the summery and an explanation of the relevant topic</li>
