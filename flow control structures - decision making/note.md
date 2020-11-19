@@ -72,11 +72,15 @@ for (init_expression; loop_condition; loop_expression) {
   program_statements
 }
 
-// init_expression - executed before the loop starts and define some initial value that will change each time through the loop
 
-// loop_condition - expression that determines whether the loop should continue, or stop
+ init_expression - executed before the loop starts and define some initial value 
+                   that will change each time through the loop
 
-// loop_expression - specifies code that is executed each time through the loop, after the body of the loop is executed.
+ loop_condition - expression that determines whether the loop should continue, or stop
+
+ loop_expression - specifies code that is executed each time through the loop, after 
+                   the body of the loop is executed.
+                   
 ~~~
 <li>While Structure
 
@@ -88,11 +92,11 @@ while (conditional_expression) {
    program_statements;
 }
 
-// conditional_expression - execute if it is not FALSE (non-zero)
+conditional_expression - execute if it is not FALSE (non-zero)
 
-// program_statement - evaluate after the conditional_expression
+program_statement - evaluate after the conditional_expression
 
-// The while-loop will stop only when the conditional_expression returns zero
+The while-loop will stop only when the conditional_expression returns zero
 ~~~
 <li>Do While Structure  
 
@@ -104,5 +108,6 @@ do{
     program_statements;
 }while (conditional_expression);
 
-//  another version of a while-loop that is essentially the same as a while-loop, but it reverses the order of the program_statement and conditional_expression
+another version of a while-loop that is essentially the same as a while-loop, but it reverses
+the order of the program_statement and conditional_expression
 ~~~
