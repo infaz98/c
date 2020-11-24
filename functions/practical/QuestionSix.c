@@ -26,3 +26,24 @@ int main(){
     printf("\n");
     return 0;
 }
+
+/*
+int main()
+{
+    int n;
+    printf("Value: ");
+    scanf("%d", &n);
+    naturalNumber(n);
+}
+
+
+void naturalNumber(int x){
+    if(x){
+        naturalNumber(x -1);
+    }else{
+        return;
+    }
+        printf("%d ", x);
+
+}
+*/
