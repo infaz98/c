@@ -4,10 +4,10 @@
 int main(){
 
     /*
-    First row  - Registration Number
-    Second row - Mathematics  Marks
-    Third row  - Science Marks
-    Fourth row - English Marks
+    First column  - Registration Number
+    Second column - Mathematics  Marks
+    Third column  - Science Marks
+    Fourth column - English Marks
     */
 
     int studentMarks[5][4];
