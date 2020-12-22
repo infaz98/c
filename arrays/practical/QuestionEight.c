@@ -15,7 +15,8 @@ int main(){
     printf("\n--Please enter the marks and registrstion number of five students--\n\n");
    
     for(int x = 0; x<5; x++){
-        
+
+        for(int y = 0; y<4; y++){
             printf("Please enter the Registration No:   ");
             scanf("%d", &studentMarks[x][0]);
 
@@ -28,7 +29,9 @@ int main(){
             printf("Please enter the English Marks:     ");
             scanf("%d", &studentMarks[x][3]);        
         
-        printf("\n");
+            printf("\n");
+    
+        }
     }
    
    printf("Output\n");
