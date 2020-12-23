@@ -18,16 +18,16 @@ int main(){
 
         for(int y = 0; y<4; y++){
             printf("Please enter the Registration No:   ");
-            scanf("%d", &studentMarks[x][0]);
+            scanf("%d", &studentMarks[x][y]);
 
             printf("Please enter the Mathematics Marks: ");
-            scanf("%d", &studentMarks[x][1]);
+            scanf("%d", &studentMarks[x][y]);
 
             printf("Please enter the Science Marks:     ");
-            scanf("%d", &studentMarks[x][2]);
+            scanf("%d", &studentMarks[x][y]);
 
             printf("Please enter the English Marks:     ");
-            scanf("%d", &studentMarks[x][3]);        
+            scanf("%d", &studentMarks[x][y]);        
         
             printf("\n");
     
