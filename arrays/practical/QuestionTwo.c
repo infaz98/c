@@ -12,6 +12,15 @@ int main(){
         sum = sum + userInputs[x];
     }
 
+
     printf("Sum of the given five numbers are : %d\n", sum);
     return 0;
+
+    printf("print 5 numbers in reverse order\n");
+
+    for(int = 4; i >= 0; i--){
+        printf("Entered number: %d", userInput[i]);	
+    }	
+
+
 }
